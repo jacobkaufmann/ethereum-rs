@@ -1,0 +1,12 @@
+[package]
+name = "ethereum-rs"
+version = "0.1.0"
+authors = ["Jacob Kaufmann <jacobkaufmann18@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ethereum-types = "0.12.1"
+keccak-hash = "0.8.0"
+rlp = "0.5.1"

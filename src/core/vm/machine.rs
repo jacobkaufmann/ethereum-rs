@@ -22,7 +22,7 @@ impl MachineState {
         Self {
             gas_available: U256::from(0),
             program_counter: U256::from(0),
-            memory: Memory {},
+            memory: Memory::new(),
             words_in_memory: U256::from(0),
             stack: Stack::new(),
         }
